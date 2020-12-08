@@ -1,0 +1,274 @@
+@import url(//db.onlinewebfonts.com/c/7234adf2685474c81e28858c37d40610?family=Whitney);
+@font-face {
+  font-family: Dosis;
+  src: url(../fonts/dosis.otf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.midias-sociais a {
+  color: #abb2bf;
+}
+
+.midias-sociais a:hover {
+  color: #fff;
+}
+
+.flinkz a {
+  font-size: 12px;
+}
+
+.flinkz a:hover {
+  font-size: 12px;
+}
+
+.footer > .container > p > a {color: #fff;}
+
+
+.footer{
+  background-color: #111014;
+  color: #abb2bf;
+}
+
+#js-scroll-vanilla {
+    position: fixed;
+    display: none;
+    background: #1D2025;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 99;
+}
+
+#js-scroll-vanilla i {
+    padding-top: 12px;
+    color: #fff;
+}
+
+
+
+.mySearch {cursor: url(/assets/img/site/search.svg), auto;}
+#mySearch {background: #333; opacity: 0.8;}
+#search-input {width: 80%; border: none;border-bottom: 2px solid #fff;}
+#search-input[type=text] {background: transparent;color: #fff; font-weight: bold;}
+#search-input[type=text]:hover {background:transparent;}
+#search-input[type=text]:focus {background:transparent;}
+.modal-header {border:none;}
+button.close {color: #fff; font-size: 60px;}
+#search-input::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+
+#search-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+
+#search-input::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+#results-container {width: 80%; margin: auto; margin-top: 10px; text-align: left;}
+#results-container li a {color: #fff; font-weight: bold; margin-bottom: 1px; font-family: 'Dosis', sans-serif; font-size: 18px;}
+#results-container li a:hover {color: #729fcf;}
+.modal-content {background-color: transparent; border:none;}
+
+
+.artigo img  {
+  max-width:100%;
+  height:auto;
+  padding:.25rem;
+  background-color:#fff;
+  border:1px solid #dee2e6;
+  border-radius:.25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+@media screen and (min-width:350px){
+.modal {
+           width:450px;
+          }
+}
+
+@media screen and (min-width:600px){
+      .modal {
+                 width:600px;
+      }
+}
+
+@media screen and (min-width:750px){
+.modal {
+           width:750px;
+          }
+
+.artigo img { max-width: 70%; }
+
+}
+
+@media screen and (min-width:1100px){
+  .modal {
+           width:1100px;
+  }
+
+  /*.sidebar {
+    position: fixed;
+    max-width: 255px;
+    top: 440px;
+    right: 400px;
+    z-index: 9999 !important;
+  }*/
+
+}
+
+@media screen and (min-width:1350px){
+.modal {
+           width:1350px;
+          }
+}
+
+/* se a tela for maior que 750 pixels - tamanho para TVs e PCs */
+@media screen and (min-width:1600px){
+.modal {
+           width:600px;
+          }
+}
+
+.bg-card {
+  background-color: #7289da;
+  color: #fff;
+}
+
+.bg-card:hover {
+  background-color: #637acf;
+}
+
+.bg-branco {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.author img {width:120px;}
+.author h5 a {color:#abb2bf;}
+.author h5 a:hover {color:#fff;text-decoration: underline;}
+.oblique {font-style: oblique;}
+.youtube i:hover, .twitter i:hover, .github i:hover, .reddit i:hover, .facebook i:hover {color:#7289da;}
+
+.page .img-main {width: 60%; height: 60%;}
+.page .h1 {margin-top: 5px; margin-bottom: 3px; text-align: center;}
+.publicidade {
+  background-image: url('/assets/img/bg/bg-pub.jpg');
+  background-attachment: fixed;
+}
+.publicidade h1, .publicidade h4 {color:#fff; font-family: Whitney,sans-serif; text-shadow: 3px 3px #000000; font-weight: bold;}
+.publicidade button {font-weight: bold; text-shadow: 1px 1px #000000;}
+
+.main-tag {border: 2px solid transparent; border-radius: 5px;}
+
+.main-tag:hover {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 6px 0px #000;
+  -moz-box-shadow: 0px 0px 6px 0px #000;
+  box-shadow: 0px 0px 6px 0px #000;
+}
+
+.main-tag h3 {
+  background-color: #7289da;
+}
+
+.main-tag h3:hover{
+  background-color: #7289da;
+}
+
+.main-tag a {font-size: 24px;}
+.main-tag a:hover {text-decoration: underline;}
+
+
+.artigo iframe {
+  max-width:100%;
+  padding:.25rem;
+  background-color:#fff;
+  border:1px solid #dee2e6;
+  border-radius:.10rem;
+  max-height: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.artigo p {font-size: 24px;}
+.artigo ul li {font-size: 24px;}
+.artigo ol li {font-size: 24px;}
+.artigo blockquote {font-size: 20px; border-left: 4px solid #abb2bf; padding-left: 10px; margin: 30px 0 30px 15px;}
+.artigo a {font-weight: bold;}
+.artigo h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.artigo a.btn {color: #fff; margin-top:5px;}
+
+pre {background: #282a36; padding: 15px; color: #fff; font-size: 18px; border: 1px solid #383a59; border-radius: 5px;}
+
+.pagina img  {
+  max-width:80%;
+  height:80%;
+  padding:.25rem;
+  background-color:#fff;
+  border:1px solid #dee2e6;
+  border-radius:.25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.pagina iframe {
+  max-width:100%;
+  padding:.25rem;
+  background-color:#fff;
+  border:1px solid #dee2e6;
+  border-radius:.10rem;
+  max-height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pagina p {font-size: 24px;}
+.pagina ul li {font-size: 24px; color: #fff; padding: 10px; list-style: none;}
+.pagina ol li {font-size: 24px;}
+.pagina blockquote p {font-size: 24px; border-left: 4px solid #abb2bf; padding-left: 20px; margin: 30px 0 30px 30px; text-align: left!important; font-style: oblique;}
+.pagina a {font-weight: bold;}
+.pagina .under-line {border-bottom: 1px solid #abb2bf; padding: 20px 0;}
+.pagina p {text-align: center;}
+.pagina a.btn {font-weight: bold; color: #fff; font-size: 24px;}
+.pagina ul li a {color: #fff;}
+
+
+.pcursos .card h4 {font-size: 24px;}
+.pcursos .card .tool { font-size: 13px; font-style: oblique; padding: 10px;}
+
+.author {
+  background-color: transparent;
+}
+
+.author img {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.artigo table {margin: auto;}

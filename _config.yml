@@ -1,0 +1,103 @@
+# Site settings.
+title: Ahnix
+abbr: 'AX'
+description: 'Ahnix dev, projeto atual de desenvolvimento.'
+baseurl: ''
+url: 'https://ahnix.github.io'
+repo: 'https://github.com/ahnix/ahnix.github.io'
+copyright: © 2020 — Ramon Almeida
+google_analytics: UA-177830562-1
+
+# SEO
+logo: /assets/img/ramon.png
+author:
+  name: Ramon Almeida
+  twitter: RamonAlmeida_
+lang: pt_BR
+twitter:
+  username: RamonAlmeida_
+  card: summary_large_image
+social:
+  name: Ramon Almeida
+defaults:
+  - scope:
+      path: ''
+    values:
+      image: /assets/img/DSC_0294.JPG
+
+# Jekyll settings.
+version: v1.2.0
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+permalink: /posts/:title/
+
+# User settings.
+username: Ramon Almeida
+user_bio: Engenheiro de software
+user_description: Codando a vida
+avatar_url: /assets/img/DSC_0294.JPG
+instagram_username: Ramongalmeida__
+myanimelist_username: ramonalmeida
+github_username: ahnix
+twitter_username: RamonAlmeida_
+
+# Build settings.
+# Jekyll 3 now only supports Kramdown for Markdown.
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks.
+  input: GFM
+  toc_levels: '1,2'
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting.
+  # syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css.
+    css_class: 'highlight'
+
+# SASS settings.
+sass:
+  style: :compressed
+
+# Plugins.
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
+
+# HTML minify.
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Artigos
+    url: /
+  - title: Arquivo
+    url: /archive/
+  - title: Sobre mim
+    url: /about/
+  - title: Contato
+    url: /contato/  
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - src
+  - gulpfile.js
+  - README.md
+  - LICENSE
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

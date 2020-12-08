@@ -1,0 +1,18 @@
+---
+layout: sidebar
+---
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="pt-br">
+  {% include head.html %}
+    <body>
+        <div class="page">
+          <div class="content">{{ content }}</div>
+        </div>
+    
+        {% include analytics.html %}
+    
+        <script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+          integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+    </body>
+</html>
