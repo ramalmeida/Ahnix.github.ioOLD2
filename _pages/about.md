@@ -12,7 +12,7 @@ seo:
 ---
 
 Olá, aqui é um espaço onde compartilho meu conhecimento e 
-produzo em meu tempo livre -> [programando]. 
+preencho meu tempo livre -> [programando]. 
 
 Atualmente trabalho em desenvolvimento na propria Ahnix, em seu maior tempo
 como backend developer. Soluções em NodeJS com frameworks ->
