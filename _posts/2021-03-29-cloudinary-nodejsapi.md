@@ -2,14 +2,14 @@
 layout: post
 title: "Cloudinary nodejs api"
 date: 2021-03-29 15:01:02
-image: '/assets/img/cloudinary.jpg'
+image: '/assets/img/cloudinary.png'
 description: "Webstorm no console macos."
 tags:
 - cloudinary
 - nodejs
 ---
 
-<img src="/assets/img/cloudinary.jpg" style="width: 286px; height: 180px;">
+<img src="/assets/img/cloudinary.png" style="width: 286px; height: 180px;">
 
 
 ## Instalação
