@@ -34,65 +34,7 @@ npm init
 
 <p>criar file de nome index.js com o seguinte conteudo</p>
 
-{% highlight %}
-
-const express = require('express')
-const app = express()
-
-// MULTER
-const multer = require('multer')
-
-const storage = multer.diskStorage({
-destination: function(req, file, cb) {
-cb(null, 'uploads/')
-},
-filename: function(req, file, cb) {
-console.log(file)
-cb(null, file.originalname)
-}
-})
-
-// POST ROUTE
-app.post('/upload', (req, res, next) => {
-const upload = multer({ storage }).single('foldertoupload')
-upload(req, res, function(err) {
-if (err) {
-return res.send(err)
-}
-
-    console.log('file uploaded to server')
-    console.log(req.file)
-
-    // SEND FILE TO CLOUDINARY
-    const cloudinary = require('cloudinary').v2
-    cloudinary.config({
-      cloud_name: 'nomecloudinary',
-      api_key: 'chavecloudinary',
-      api_secret: 'suakeycloudinary'
-    })
-
-    const path = req.file.path
-    const uniqueFilename = new Date().toISOString()
-
-    cloudinary.uploader.upload(
-      path,
-      { public_id: `${uniqueFilename}` }, // directory and tags are optional
-      function(err, image) {
-        if (err) return res.send(err)
-        console.log('file uploaded to Cloudinary')
-
-        var fs = require('fs')
-        fs.unlinkSync(path)
-
-        res.json(image)
-      }
-    )
-})
-})
-
-app.listen(3000)
-
-{% endhighlight %}
+<script src="https://gist.github.com/Ahnix/2b5c97a3cfbdd0acb9fbcf146aa783b1.js"></script>
 
 <p>O seu package.json deve conter o seguinte conteudo</p>
 
