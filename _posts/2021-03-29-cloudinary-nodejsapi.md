@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Cloudinary nodejs api"
-date: 2020-03-29 15:01:02
+date: 2021-03-29 15:01:02
 image: '/assets/img/cloudinary.jpg'
 description: "Webstorm no console macos."
 tags:
-- webstorm
-- macos
-- console
+- cloudinary
+- nodejs
 ---
 
 <img src="/assets/img/cloudinary.jpg" style="width: 286px; height: 180px;">
@@ -38,28 +37,7 @@ npm init
 
 <p>O seu package.json deve conter o seguinte conteudo</p>
 
-{% highlight %}
-
-
-{
-"name": "apinodejs-cloudinary",
-"version": "1.0.0",
-"description": "",
-"main": "index.js",
-"scripts": {
-"start": "node index.js",
-"dev": "nodemon index.js"
-},
-"dependencies": {
-"cloudinary": "^1.11.0",
-"express": "^4.16.3",
-"multer": "^1.3.1"
-},
-"author": "Ramon Almeida",
-"license": "ISC"
-}
-
-{% endhighlight %}
+<script src="https://gist.github.com/Ahnix/f6ca86cae9133bb42475ed22238b150e.js"></script>
 
 <p>basta rodar o npm i em seguida node index.js, sua api de upload estara pronta.
 vale ressaltar que no index deve ser preenchido os dados de acesso ao cloudinary.

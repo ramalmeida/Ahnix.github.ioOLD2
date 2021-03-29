@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Webstorm no console"
-date: 2020-03-29 15:01:02
+date: 2021-03-29 15:01:02
 image: '/assets/img/webstorm.png'
 description: "Webstorm no console macos."
 tags:
