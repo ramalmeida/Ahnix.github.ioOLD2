@@ -6,8 +6,6 @@ image: /assets/img/DSC_0294.JPG
 seo:
   type: Person
   links:
-    - https://twitter.com/RamonAlmeida_
-    - https://instagram.com/ramongalmeida__
     - https://github.com/ahnix
 ---
 
